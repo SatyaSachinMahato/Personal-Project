@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div1{
+            animation-name: divdemo1;
+            animation-duration: alternate;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            width:100px;
+            height:100px;
+            background-color: aqua;
+            border-radius: 50%;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+        }
+         #div2{
+            animation-name: divdemo2;
+            animation-duration: alternate;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            bottom:0;
+            margin-top: auto;
+            margin-bottom: auto;
+        } 
+          #div3{
+            animation-name: divdemo3;
+            animation-duration: alternate;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            bottom:0;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+          
+        #div4{
+            animation-name: divdemo4;
+            animation-duration: alternate;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function:linear;
+            width:100px;
+            height:100px;
+            background-color: aqua;
+            border-radius: 50%;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+        }  
+
+        @keyframes divdemo1{
+            from{
+                background-color: firebrick;
+                top: 10px;
+            }
+            to{
+                background-color:yellowgreen;
+                top: 300px;
+            }
+        }
+        @keyframes divdemo2{
+            from{
+                background-color: olivedrab;
+                left: 10px;
+            }
+            to{
+                background-color:orangered;
+                left: 690px;
+            }
+        }
+        @keyframes divdemo3{
+            from{
+                background-color: firebrick;
+                left:1200px;
+            }
+            to{
+                background-color:pink;
+                left: 680px;
+            }
+        }
+        @keyframes divdemo4{
+            from{
+                background-color: fuchsia;
+                bottom: 10px;
+            }
+            to{
+                background-color:yellow;
+                bottom: 300px;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+    <div id="div1" align="center" style="padding-top: 20px;"></div>
+    <div id="div2" align="center" style="padding-top: 20px;"></div>
+    <div id="div3" align="center" style="padding-top: 20px;"></div>
+    <div id="div4" align="center" style="padding-top: 20px;"></div>
+</body>
+</html>
